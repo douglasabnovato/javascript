@@ -123,7 +123,14 @@
 	    console.log(i);
 	}
 ````
-- while
+- while - quando não há conhecimento de quantas interações serão realizadas
+````
+	var j = 0;
+	while (j<100){
+	    console.log(j);
+	    j++;
+	}
+````
 
 #### 10. Intervalo e Timeout
 
