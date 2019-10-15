@@ -48,5 +48,15 @@
     console.log(x + y);
 ````
 
+#### 5. Funções
+````
+	function soma(numero1, numero2){
+	    var resultado = numero1 + numero2;
+	    return resultado;
+	}
+	var resultado = soma(1, 2);
+	console.log(resultado);
+````
+
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
