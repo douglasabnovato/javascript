@@ -58,5 +58,15 @@
 	console.log(resultado);
 ````
 
+#### 6. Condicionais
+
+#### 7. Operadores Lógicos
+
+#### 8. Condicionais Ternária
+
+#### 9. Estruturas de Repetição
+
+#### 10. Intervalo e Timeout
+
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
