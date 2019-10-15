@@ -91,6 +91,7 @@
 ````
 
 #### 7. Operadores Lógicos
+- and/ or/ not
 
 #### 8. Condicionais Ternária
 
