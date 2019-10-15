@@ -26,36 +26,36 @@
 - string, inteiro, decimal, boolean, vetor, objeto
 - console.log
 ````
-    var nome = "douglas";//string
-    var idade = 29;//inteiro
-    var peso = 80.5;//decimal
-    var humano = true;//boolean
-    var alunos = ['douglasabn', 'Roberto', 'Lucas'];//vetor
-    var aluno = {//objeto
-        nome: 'douglasabnovato',
-        idade: 29,
-        peso: 84.5,
-        humano: true
-    };
-    console.log(alunos[1]);
-    console.log(aluno.peso);
+	var nome = "douglas";//string
+	var idade = 29;//inteiro
+	var peso = 80.5;//decimal
+	var humano = true;//boolean
+	var alunos = ['douglasabn', 'Roberto', 'Lucas'];//vetor
+	var aluno = {//objeto
+	    nome: 'douglasabnovato',
+	    idade: 29,
+	    peso: 84.5,
+	    humano: true
+	};
+	console.log(alunos[1]);
+	console.log(aluno.peso);
 ````
 
 #### 4. Operações Matemáticas
 
 ````
 	var x = 9, y = 3;
-    console.log(x + y);
+	console.log(x + y);
 ````
 
 #### 5. Funções
 ````
 	function soma(numero1, numero2){
-        var resultado = numero1 + numero2;
-        return resultado;
-    }
-    var resultadosoma = soma(1, 2);
-    console.log(resultadosoma);
+	    var resultado = numero1 + numero2;
+	    return resultado;
+	}
+	var resultadosoma = soma(1, 2);
+	console.log(resultadosoma);
 ````
 
 #### 6. Condicionais
@@ -103,17 +103,17 @@
 - estrutura tradicional if else
 ````
 	var sexo = 'M';
-    if (sexo === 'M'){
-        return 'Masculino';
-    } else {
-        return 'Feminino';
-    }
+	if (sexo === 'M'){
+	    return 'Masculino';
+	} else {
+	    return 'Feminino';
+	}
 ````
 - estrutura ternária
 ````
 	var sexo = 'F';
-    var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
-    console.log(retorno);
+	var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+	console.log(retorno);
 ````
 
 #### 9. Estruturas de Repetição
