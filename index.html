@@ -4,16 +4,22 @@
     </head>
     <body>
         <h4> @douglasabnovato </h4>
-        <h5> desafio 1 - tarefa 2 </h5>
+        <h5> desafio 1 - tarefa 3 </h5>
         <script> 
-            function exibirPares(x, y){
-                for(var i = x; i <= y; i++){
-                    if(i%2 === 0){
-                        console.log(i);
-                    } 
-                }
+            
+            function temHabilidade(skills, possuiEssaSkill){
+                return skills.indexOf(possuiEssaSkill);
             }
-            console.log(exibirPares(32,321));
+            
+            var skills = [ "Html", "Javascript", "ReactJS", "React  Native"];
+            var possuiEssaSkill = "Javascript";
+
+            if(temHabilidade(skills, possuiEssaSkill) != -1){
+                console.log('Possui a habilidade ' + possuiEssaSkill + '.');
+            } else {
+                console.log('Não Possui a habilidade ' + possuiEssaSkill + '.');
+            }
         </script>
+
     </body>
 </html>

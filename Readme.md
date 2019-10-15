@@ -182,6 +182,21 @@
 	}
 	console.log(exibirPares(32,321));
 ````
+- tarefa 3
+````
+	function temHabilidade(skills, possuiEssaSkill){
+	    return skills.indexOf(possuiEssaSkill);
+	}
+
+	var skills = [ "Html", "Javascript", "ReactJS", "React  Native"];
+	var possuiEssaSkill = "Javascript";
+
+	if(temHabilidade(skills, possuiEssaSkill) != -1){
+	    console.log('Possui a habilidade ' + possuiEssaSkill + '.');
+	} else {
+	    console.log('Não Possui a habilidade ' + possuiEssaSkill + '.');
+	}
+````
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
