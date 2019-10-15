@@ -23,7 +23,8 @@
 - Console de Desenvolvedor - Google Chrome
 
 #### 3. Variáveis e Dados
-- variável
+- string, inteiro, decimal, boolean, vetor, objeto
+- console.log
 
 
 :. De Rocketseat - Starter - Javascript.<br>
