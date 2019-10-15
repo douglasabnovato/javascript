@@ -23,8 +23,7 @@
 - Console de Desenvolvedor - Google Chrome
 
 #### 3. Variáveis e Dados
-- 
-
+- variável
 
 
 :. De Rocketseat - Starter - Javascript.<br>
