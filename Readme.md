@@ -150,6 +150,27 @@
 
 #### Desafio
 - arquivo pdf : desafio1-introducao.pdf
+- tarefa 1
+````
+	<script>  
+		var endereco = {
+		    rua: "Rua dos pinheiros",
+		    numero: 1293,
+		    bairro: "Centro",
+		    cidade: "São Paulo",
+		    uf: "SP"
+		};
+		function montarEndereco(){
+
+		    return 'O usuário mora em ' + endereco.cidade + '/' + endereco.uf 
+		            + ', no bairro ' + endereco.bairro + ', na rua ' + endereco.rua 
+		            + ' com nº ' + endereco.numero + '.'
+		}
+
+		console.log(montarEndereco());
+
+	</script>
+````
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
