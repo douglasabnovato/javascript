@@ -51,11 +51,11 @@
 #### 5. Funções
 ````
 	function soma(numero1, numero2){
-	    var resultado = numero1 + numero2;
-	    return resultado;
-	}
-	var resultado = soma(1, 2);
-	console.log(resultado);
+        var resultado = numero1 + numero2;
+        return resultado;
+    }
+    var resultadosoma = soma(1, 2);
+    console.log(resultadosoma);
 ````
 
 #### 6. Condicionais
