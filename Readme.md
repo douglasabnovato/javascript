@@ -143,10 +143,13 @@
 - Timeout : executa uma vez após o intervalo de tempo informado como parâmetro
 ````	
 	function exibirAlgo(){
-        console.log('@douglasabnovato');
-    }
-    setTimeout(exibirAlgo, 6000);
+		console.log('@douglasabnovato');
+	}
+	setTimeout(exibirAlgo, 6000);
 ````
+
+#### Desafio
+- arquivo pdf : 
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
