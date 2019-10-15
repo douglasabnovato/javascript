@@ -8,7 +8,7 @@
 
 ![Git](/images/logo-git.png)
 ![Github](/images/logo-github.png)
-![Javascript](/images/logo-html-css-js.jpeg)
+![Javascript](/images/logo-javascript.png)
 ![VSCode](/images/logo-VSCode.png)
 ![Rocketseat](/images/logo-rocketseat.png)
 
