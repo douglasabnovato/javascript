@@ -5,12 +5,17 @@
     <body>
         <h4>Funções !</h4>
         <script>            
-            function soma(numero1, numero2){
-                var resultado = numero1 + numero2;
-                return resultado;
+            function qualSexo(sexo){//M ou F
+                if(sexo == 'M'){
+                    return 'Masculino';
+                } else if( sexo == 'F') {
+                    return 'Feminino'; 
+                } else {
+                    return 'Outro';
+                }
             }
-            var resultadosoma = soma(1, 2);
-            console.log(resultadosoma);
+            var resultadoSexo = qualSexo('M');
+            console.log(resultadoSexo);
         </script>
     </body>
 </html>

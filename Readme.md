@@ -59,6 +59,20 @@
 ````
 
 #### 6. Condicionais
+- if
+````
+	function qualSexo(sexo){//M ou F
+	    if(sexo == 'M'){
+	        return 'Masculino';
+	    } else if( sexo == 'F') {
+	        return 'Feminino'; 
+	    } else {
+	        return 'Outro';
+	    }
+	}
+	var resultadoSexo = qualSexo('M');
+	console.log(resultadoSexo);
+````
 
 #### 7. Operadores Lógicos
 
