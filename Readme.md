@@ -197,6 +197,28 @@
 	    console.log('Não Possui a habilidade ' + possuiEssaSkill + '.');
 	}
 ````
+- tarefa 4 
+````
+	function experiencia(anos) {
+	    if(anos > 0 && anos <= 1 ){
+	        return anos + ' anos de estudo. Você é um programador Iniciante';
+	    }
+	    if(anos > 1 && anos <= 3 ){
+	        return anos + ' anos de estudo. Você é um programador Intermediário';
+	    }
+	    if(anos > 3 && anos <= 6 ){
+	        return anos + ' anos de estudo. Você é um programador Avançado';
+	    }
+	    if(anos > 6 ){
+	        return anos + ' anos de estudo. Você é um programador Jedi Master';
+	    }
+	    else {
+	        return ' Você quer ser programador ?';
+	    }
+	}
+	var anosEstudo = 5;
+	console.log(experiencia(anosEstudo));
+````
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3

@@ -4,21 +4,27 @@
     </head>
     <body>
         <h4> @douglasabnovato </h4>
-        <h5> desafio 1 - tarefa 3 </h5>
+        <h5> desafio 1 - tarefa 4 </h5>
         <script> 
-            
-            function temHabilidade(skills, possuiEssaSkill){
-                return skills.indexOf(possuiEssaSkill);
+            function experiencia(anos) {
+                if(anos > 0 && anos <= 1 ){
+                    return anos + ' anos de estudo. Você é um programador Iniciante';
+                }
+                if(anos > 1 && anos <= 3 ){
+                    return anos + ' anos de estudo. Você é um programador Intermediário';
+                }
+                if(anos > 3 && anos <= 6 ){
+                    return anos + ' anos de estudo. Você é um programador Avançado';
+                }
+                if(anos > 6 ){
+                    return anos + ' anos de estudo. Você é um programador Jedi Master';
+                }
+                else {
+                    return ' Você quer ser programador ?';
+                }
             }
-            
-            var skills = [ "Html", "Javascript", "ReactJS", "React  Native"];
-            var possuiEssaSkill = "Javascript";
-
-            if(temHabilidade(skills, possuiEssaSkill) != -1){
-                console.log('Possui a habilidade ' + possuiEssaSkill + '.');
-            } else {
-                console.log('Não Possui a habilidade ' + possuiEssaSkill + '.');
-            }
+            var anosEstudo = 5;
+            console.log(experiencia(anosEstudo));
         </script>
 
     </body>
