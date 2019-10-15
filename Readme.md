@@ -1,6 +1,6 @@
 # Rocketseat - Starter JavaScript 
 
-## Atualização: 14 de Outubro de 2019 - 22:17
+## Atualização: 15 de Outubro de 2019 - 12:04
 ## Criação: 14 de Outubro de 2019
 ## Prática : @douglasabnovato
 
@@ -133,6 +133,14 @@
 ````
 
 #### 10. Intervalo e Timeout
+- intervalo
+````
+	function exibirAlgo(){
+	    console.log('@douglasabnovato');
+	}
+	setInterval(exibirAlgo, 1000);
+````
+
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
