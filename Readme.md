@@ -43,6 +43,10 @@
 
 #### 4. Operações Matemáticas
 
+````
+	var x = 9, y = 3;
+    console.log(x + y);
+````
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
