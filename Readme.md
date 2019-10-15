@@ -172,7 +172,16 @@
 	</script>
 ````
 - tarefa 2
-
+````
+	function exibirPares(x, y){
+		for(var i = x; i <= y; i++){
+		    if(i%2 === 0){
+		        console.log(i);
+		    } 
+		}
+	}
+	console.log(exibirPares(32,321));
+````
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
