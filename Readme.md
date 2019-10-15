@@ -1,6 +1,6 @@
 # Rocketseat - Starter JavaScript 
 
-## Atualização: 15 de Outubro de 2019 - 12:04
+## Atualização: 15 de Outubro de 2019 - 17:08
 ## Criação: 14 de Outubro de 2019
 ## Prática : @douglasabnovato
 
@@ -150,6 +150,10 @@
 
 #### Desafio
 - arquivo pdf : desafio1-introducao.pdf
+- consultas :
+1. https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
+2. https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of
+3. https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join
 - tarefa 1
 ````
 	<script>  
