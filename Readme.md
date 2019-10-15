@@ -15,8 +15,16 @@
 ### Introdução à Javascript 
 
 #### 1. Introdução 
+- interpretar scripts na interface do navegador no ambiente do cliente.
+- comunidade javascript.
 
 #### 2. Configuração Ambiente 
+- Visual Studio Code
+- Console de Desenvolvedor - Google Chrome
+
+#### 3. Variáveis e Dados
+- 
+
 
 
 :. De Rocketseat - Starter - Javascript.<br>
