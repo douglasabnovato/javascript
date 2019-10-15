@@ -99,9 +99,26 @@
 	}
 ````
 
-#### 8. Condicionais Ternária
+#### 8. Condicional Ternária
+- estrutura tradicional
+````
+	var sexo = 'M';
+    if (sexo === 'M'){
+        return 'Masculino';
+    } else {
+        return 'Feminino';
+    }
+````
+- estrutura ternária
+````
+	var sexo = 'F';
+    var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+    console.log(retorno);
+````
 
 #### 9. Estruturas de Repetição
+- for 
+- while
 
 #### 10. Intervalo e Timeout
 
