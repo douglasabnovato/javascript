@@ -100,7 +100,7 @@
 ````
 
 #### 8. Condicional Ternária
-- estrutura tradicional
+- estrutura tradicional if else
 ````
 	var sexo = 'M';
     if (sexo === 'M'){
