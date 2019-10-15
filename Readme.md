@@ -227,20 +227,20 @@
 - tarefa 5
 ````
 	var usuarios = [
-	{
-	    nome: "Diego",
-	    habilidades: ["Javascript", "ReactJS", "Redux"]
-	},
-	{
-	    nome: "Gabriel",
-	    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
-	}
+		{
+		    nome: "Diego",
+		    habilidades: ["Javascript", "ReactJS", "Redux"]
+		},
+		{
+		    nome: "Gabriel",
+		    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+		}
 	];
 
 	function leitura(usuarios){
-	for(let usuario of usuarios){
-	    console.log('O '+ usuario.nome +' possui as habilidades ' + usuario.habilidades + '.');
-	}
+		for(let usuario of usuarios){
+		    console.log('O '+ usuario.nome +' possui as habilidades ' + usuario.habilidades + '.');
+		}
 	}
 
 	leitura(usuarios);
