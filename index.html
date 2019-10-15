@@ -4,7 +4,24 @@
     </head>
     <body>
         <h4> @douglasabnovato </h4>
+        <h5> desafio 1 - tarefa 1 </h5>
         <script>  
+            var endereco = {
+                rua: "Rua dos pinheiros",
+                numero: 1293,
+                bairro: "Centro",
+                cidade: "São Paulo",
+                uf: "SP"
+            };
+            function montarEndereco(){
+
+                return 'O usuário mora em ' + endereco.cidade + '/' + endereco.uf 
+                        + ', no bairro ' + endereco.bairro + ', na rua ' + endereco.rua 
+                        + ' com nº ' + endereco.numero + '.'
+            }
+
+            console.log(montarEndereco());
+
         </script>
     </body>
 </html>
