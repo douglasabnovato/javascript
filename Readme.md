@@ -74,6 +74,22 @@
 	console.log(resultadoSexo);
 ````
 
+- switch case
+````
+	function qualSexo(sexo){//M ou F
+	    switch (sexo) {
+	        case 'M':
+	            return 'Masculino';
+	        case 'F':
+	            return 'Feminino';
+	        default:
+	            return 'Outro';
+	    }
+	}
+	var resultadoSexo = qualSexo('F');
+	console.log(resultadoSexo);
+````
+
 #### 7. Operadores Lógicos
 
 #### 8. Condicionais Ternária

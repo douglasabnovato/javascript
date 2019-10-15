@@ -6,15 +6,16 @@
         <h4>Funções !</h4>
         <script>            
             function qualSexo(sexo){//M ou F
-                if(sexo == 'M'){
-                    return 'Masculino';
-                } else if( sexo == 'F') {
-                    return 'Feminino'; 
-                } else {
-                    return 'Outro';
+                switch (sexo) {
+                    case 'M':
+                        return 'Masculino';
+                    case 'F':
+                        return 'Feminino';
+                    default:
+                        return 'Outro';
                 }
             }
-            var resultadoSexo = qualSexo('M');
+            var resultadoSexo = qualSexo('F');
             console.log(resultadoSexo);
         </script>
     </body>
