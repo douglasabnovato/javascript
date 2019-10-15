@@ -25,6 +25,23 @@
 #### 3. Variáveis e Dados
 - string, inteiro, decimal, boolean, vetor, objeto
 - console.log
+````
+    var nome = "douglas";//string
+    var idade = 29;//inteiro
+    var peso = 80.5;//decimal
+    var humano = true;//boolean
+    var alunos = ['douglasabn', 'Roberto', 'Lucas'];//vetor
+    var aluno = {//objeto
+        nome: 'douglasabnovato',
+        idade: 29,
+        peso: 84.5,
+        humano: true
+    };
+    console.log(alunos[1]);
+    console.log(aluno.peso);
+````
+
+#### 4. Operações Matemáticas
 
 
 :. De Rocketseat - Starter - Javascript.<br>
