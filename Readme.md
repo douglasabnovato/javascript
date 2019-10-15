@@ -133,14 +133,20 @@
 ````
 
 #### 10. Intervalo e Timeout
-- Intervalo
+- Intervalo : executa repetidas vezes no intervalo de tempo informado como parâmetro
 ````
 	function exibirAlgo(){
 	    console.log('@douglasabnovato');
 	}
 	setInterval(exibirAlgo, 1000);
 ````
-
+- Timeout : executa uma vez após o intervalo de tempo informado como parâmetro
+````	
+	function exibirAlgo(){
+        console.log('@douglasabnovato');
+    }
+    setTimeout(exibirAlgo, 6000);
+````
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
