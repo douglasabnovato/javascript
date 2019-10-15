@@ -3,20 +3,13 @@
         <title>Starter - Javascript</title>       
     </head>
     <body>
-        <h4>Funções !</h4>
-        <script>            
-            function qualSexo(sexo){//M ou F
-                switch (sexo) {
-                    case 'M':
-                        return 'Masculino';
-                    case 'F':
-                        return 'Feminino';
-                    default:
-                        return 'Outro';
-                }
+        <h4>Operadores Lógicos !</h4>
+        <script>  
+        //and/ or/ not          
+            var sexo = 'M', idade = 23;
+            if(sexo === 'M' && idade >=18){
+                console.log('OK');
             }
-            var resultadoSexo = qualSexo('F');
-            console.log(resultadoSexo);
         </script>
     </body>
 </html>

@@ -92,6 +92,12 @@
 
 #### 7. Operadores Lógicos
 - and/ or/ not
+````         
+	var sexo = 'M', idade = 23;
+	if(sexo === 'M' && idade >=18){
+	    console.log('OK');
+	}
+````
 
 #### 8. Condicionais Ternária
 
