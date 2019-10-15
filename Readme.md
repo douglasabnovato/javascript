@@ -133,7 +133,7 @@
 ````
 
 #### 10. Intervalo e Timeout
-- intervalo
+- Intervalo
 ````
 	function exibirAlgo(){
 	    console.log('@douglasabnovato');
