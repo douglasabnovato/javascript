@@ -224,5 +224,27 @@
 	console.log(experiencia(anosEstudo));
 ````
 
+- tarefa 5
+````
+	var usuarios = [
+	{
+	    nome: "Diego",
+	    habilidades: ["Javascript", "ReactJS", "Redux"]
+	},
+	{
+	    nome: "Gabriel",
+	    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+	}
+	];
+
+	function leitura(usuarios){
+	for(let usuario of usuarios){
+	    console.log('O '+ usuario.nome +' possui as habilidades ' + usuario.habilidades + '.');
+	}
+	}
+
+	leitura(usuarios);
+````
+
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
