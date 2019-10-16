@@ -4,27 +4,14 @@
     </head>
     <body>
         <h4> @douglasabnovato </h4>
-        <h5> desafio 1 - tarefa 5 </h5>
+        <h5> Manipulando DOM</h5>
+        <div id="app">
+            <button onclick="mostraAlerta()">Pressione</button>
+        </div>
         <script>
-            var usuarios = [
-                {
-                    nome: "Diego",
-                    habilidades: ["Javascript", "ReactJS", "Redux"]
-                },
-                {
-                    nome: "Gabriel",
-                    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
-                }
-            ];
-
-            function leitura(usuarios){
-                for(let usuario of usuarios){
-                    console.log('O '+ usuario.nome +' possui as habilidades ' + usuario.habilidades + '.');
-                }
+            function mostraAlerta(){
+                alert('Botão foi clicado.');
             }
-
-            leitura(usuarios);
-
         </script>
 
     </body>
