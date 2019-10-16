@@ -259,6 +259,19 @@
 
 	leitura(usuarios);
 ````
+### Manipulando a DOM
+
+#### 1. Eventos inline 
+- interpretar 
+
+#### 2. Trabalhando com a DOM 
+- interpretar 
+
+#### 3. Alterando Estilos 
+- interpretar 
+
+#### Desafio
+- interpretar 
 
 
 
