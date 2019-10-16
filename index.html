@@ -6,21 +6,14 @@
         <h4> @douglasabnovato </h4>
         <h5> Manipulando DOM</h5>
         <div id="app">
-            <input id="nome"/>
+            <div class="box"></div>
         </div>
         <script>
-            var linkElement = document.createElement('a');
-            linkElement.setAttribute('href','http://rocketseat.com.br');
+            var boxElement = document.querySelector('.box');
 
-            var textElement = document.createTextNode('Acessar site da rocketseat.');
-            linkElement.appendChild(textElement);
-
-            var containerElement = document.querySelector('#app');
-            containerElement.appendChild(linkElement);
-
-            var inputElement = document.querySelector('#nome');
-            containerElement.removeChild(inputElement);
-
+            boxElement.style.width = 100;
+            boxElement.style.height = 100;
+            boxElement.style.backgroundColor = '#f00';            
         </script>
     </body>
 </html>

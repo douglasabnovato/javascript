@@ -320,7 +320,19 @@
 ````
 
 #### 3. Alterando Estilos 
-- interpretar 
+- controlar estilização css
+````
+	<div id="app">
+		<div class="box"></div>
+	</div>
+	<script>
+		var boxElement = document.querySelector('.box');
+
+		boxElement.style.width = 100;
+		boxElement.style.height = 100;
+		boxElement.style.backgroundColor = '#f00';            
+	</script>
+```` 
 
 #### Desafio
 - interpretar 
