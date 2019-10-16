@@ -105,10 +105,10 @@
 	    console.log('OK');
 	}
 ````
-- not
+- not : verificar a desigualdade
 ````         
-	var sexo = 'M', idade = 23;
-	if(sexo === 'M' && idade >=18){
+	var sexo = 'F';
+	if(sexo !== 'M'){
 	    console.log('OK');
 	}
 ````
