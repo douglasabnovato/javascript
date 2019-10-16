@@ -6,13 +6,16 @@
         <h4> @douglasabnovato </h4>
         <h5> Manipulando DOM</h5>
         <div id="app">
-            <button onmouseover ="mostraAlerta()">Pressione</button>
+            <input type="text" name="nome"/>
+            <button class="botao">Adicionar</button>
         </div>
         <script>
-            function mostraAlerta(){
-                alert('Botão foi clicado.');
+            var btnElement = document.querySelector('button.botao');
+            var inputElement = document.querySelector('input[name=nome');
+            btnElement.onclick = function(){
+                var text = inputElement.value;
+                alert(text);
             }
         </script>
-
     </body>
 </html>

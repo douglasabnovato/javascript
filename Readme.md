@@ -262,10 +262,42 @@
 ### Manipulando a DOM
 
 #### 1. Eventos inline 
-- interpretar 
+- eventos : onclick, onmouseover, entre outros.
+````
+	<body>
+		<h4> @douglasabnovato </h4>
+		<h5> Manipulando DOM</h5>
+		<div id="app">
+			<button onmouseover ="mostraAlerta()">Pressione</button>
+		</div>
+		<script>
+			function mostraAlerta(){
+				alert('Botão foi clicado.');
+			}
+		</script>
+	</body>
+````
 
 #### 2. Trabalhando com a DOM 
-- interpretar 
+- objetivo é buscar as informações nos elementos da DOM
+- getElementsByTagName
+- getElementsByClassName
+- getElementsById 
+- manipulando elementos da nossa DOM
+````
+	<div id="app">
+		<input type="text" name="nome"/>
+		<button class="botao">Adicionar</button>
+	</div>
+	<script>
+		var btnElement = document.querySelector('button.botao');
+		var inputElement = document.querySelector('input[name=nome');
+		btnElement.onclick = function(){
+			var text = inputElement.value;
+			alert(text);
+		}
+	</script>
+````
 
 #### 3. Alterando Estilos 
 - interpretar 
