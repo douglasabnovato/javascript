@@ -6,7 +6,7 @@
         <h4> @douglasabnovato </h4>
         <h5> Manipulando DOM</h5>
         <div id="app">
-            
+            <input id="nome"/>
         </div>
         <script>
             var linkElement = document.createElement('a');
@@ -17,6 +17,9 @@
 
             var containerElement = document.querySelector('#app');
             containerElement.appendChild(linkElement);
+
+            var inputElement = document.querySelector('#nome');
+            containerElement.removeChild(inputElement);
 
         </script>
     </body>

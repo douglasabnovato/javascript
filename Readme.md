@@ -298,6 +298,26 @@
 		}
 	</script>
 ````
+- criando e removendo
+````
+	<div id="app">
+		<input id="nome"/>
+	</div>
+	<script>
+		var linkElement = document.createElement('a');
+		linkElement.setAttribute('href','http://rocketseat.com.br');
+
+		var textElement = document.createTextNode('Acessar site da rocketseat.');
+		linkElement.appendChild(textElement);
+
+		var containerElement = document.querySelector('#app');
+		containerElement.appendChild(linkElement);
+
+		var inputElement = document.querySelector('#nome');
+		containerElement.removeChild(inputElement);
+
+	</script>
+````
 
 #### 3. Alterando Estilos 
 - interpretar 
