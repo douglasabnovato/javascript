@@ -91,7 +91,21 @@
 ````
 
 #### 7. Operadores Lógicos
-- and/ or/ not
+- and
+````         
+	var sexo = 'M', idade = 23;
+	if(sexo === 'M' && idade >=18){
+	    console.log('OK');
+	}
+````
+- or
+````         
+	var sexo = 'M', idade = 15;
+	if(sexo === 'M' || idade >=18){
+	    console.log('OK');
+	}
+````
+- not
 ````         
 	var sexo = 'M', idade = 23;
 	if(sexo === 'M' && idade >=18){
@@ -245,6 +259,8 @@
 
 	leitura(usuarios);
 ````
+
+
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
