@@ -335,9 +335,7 @@
 ```` 
 
 #### Desafio
-- interpretar 
-
-
+- arquivo pdf : desafio2-manipulandoDOM.pdf 
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
