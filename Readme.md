@@ -399,6 +399,24 @@
 		
 	</script>
 ````
+- tarefa 3 
+````
+	<script>
+		var nomes = ["Diego", "Lucas", "Gabriel", "Lucas"];
+
+		var element = document.body;
+
+		var newUl = document.createElement('ul');
+		
+		for(var i = 0 ; i < nomes.length ; i++){
+			var newLi = document.createElement('li');
+			var itemLi = document.createTextNode(nomes[i]);
+			newLi.appendChild(itemLi);
+			newUl.appendChild(newLi);
+			element.appendChild(newUl); 
+		}
+	</script>
+````
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3

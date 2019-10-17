@@ -1,39 +1,23 @@
+<html>
+    <head>
+        <title>Javascript - @douglasabnovato </title>
+    </head>
     <body>
-        <button class='botao' id='btnCriar' onClick="gerarQuadrado()" >Gerar novo</button>
-        <div id="app">
-            <div class="box" onmouseover="trocarCor(this)"></div>
-        </div>
-       <script>        
 
-            function gerarQuadrado() {
+        <script>
+            var nomes = ["Diego", "Lucas", "Gabriel", "Lucas"];
 
-                let boxElement = document.createElement("div");
+            var element = document.body;
 
-                boxElement.style.width = '100px';
-                boxElement.style.height = '100px';
-                boxElement.style.margin = '10px';
-                boxElement.style.backgroundColor = '#f00';
-
-                //cria evento mouseover
-                boxElement.addEventListener("mouseover", () => {
-                    let newColor = getRandomColor();
-                    boxElement.style.backgroundColor = newColor;
-                });
-
-                //adiciona a classe .box na div criada
-                boxElement.classList.add('box');
-
-                document.body.appendChild(boxElement);
-            }
-
-            function getRandomColor() {
-                var letters = "0123456789ABCDEF";
-                var color = "#";
-                for (var i = 0; i < 6; i++) {
-                    color += letters[Math.floor(Math.random() * 16)];
-                }
-                return color;
-            }
+            var newUl = document.createElement('ul');
             
+            for(var i = 0 ; i < nomes.length ; i++){
+                var newLi = document.createElement('li');
+                var itemLi = document.createTextNode(nomes[i]);
+                newLi.appendChild(itemLi);
+                newUl.appendChild(newLi);
+                element.appendChild(newUl); 
+            }
         </script>
-    </body> 
+    </body>
+</html>
