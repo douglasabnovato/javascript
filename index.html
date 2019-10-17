@@ -1,19 +1,23 @@
-<html>
-    <head>
-        <title>Starter - Javascript</title>       
-    </head>
     <body>
-        <h4> @douglasabnovato </h4>
-        <h5> Manipulando DOM</h5>
+        <button class='botao' id='btnCriar' onClick="gerarQuadrado()">Gerar novo</button>
         <div id="app">
             <div class="box"></div>
         </div>
-        <script>
-            var boxElement = document.querySelector('.box');
+       <script>        
 
-            boxElement.style.width = 100;
-            boxElement.style.height = 100;
-            boxElement.style.backgroundColor = '#f00';            
+            function gerarQuadrado() {
+
+                let boxElement = document.createElement("div");
+
+                boxElement.style.width = '100px';
+                boxElement.style.height = '100px';
+                boxElement.style.margin = '10px';
+                boxElement.style.backgroundColor = '#f00';
+
+                //adiciona a classe .box na div criada
+                boxElement.classList.add('box');
+
+                document.body.appendChild(boxElement);
+            }
         </script>
-    </body>
-</html>
+    </body> 

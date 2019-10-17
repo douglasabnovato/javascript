@@ -336,6 +336,29 @@
 
 #### Desafio
 - arquivo pdf : desafio2-manipulandoDOM.pdf 
+- tarefa 1
+````
+	<button class='botao' id='btnCriar' onClick="gerarQuadrado()">Gerar novo</button>
+	<div id="app">
+		<div class="box"></div>
+	</div>
+	<script>        
+		function gerarQuadrado() {
+
+			let boxElement = document.createElement("div");
+
+			boxElement.style.width = '100px';
+			boxElement.style.height = '100px';
+			boxElement.style.margin = '10px';
+			boxElement.style.backgroundColor = '#f00';
+
+			//adiciona a classe .box na div criada
+			boxElement.classList.add('box');
+
+			document.body.appendChild(boxElement);
+		}
+	</script>
+````
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
