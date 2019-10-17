@@ -1,6 +1,6 @@
 # Rocketseat - Starter JavaScript 
 
-## Atualização: 15 de Outubro de 2019 - 17:08
+## Atualização: 17 de Outubro de 2019 - 15:33
 ## Criação: 14 de Outubro de 2019
 ## Prática : @douglasabnovato
 
@@ -357,6 +357,46 @@
 
 			document.body.appendChild(boxElement);
 		}
+	</script>
+````
+- tarefa 2
+````
+	<button class='botao' id='btnCriar' onClick="gerarQuadrado()" >Gerar novo</button>
+	<div id="app">
+		<div class="box" onmouseover="trocarCor(this)"></div>
+	</div>
+	<script>        
+
+		function gerarQuadrado() {
+
+			let boxElement = document.createElement("div");
+
+			boxElement.style.width = '100px';
+			boxElement.style.height = '100px';
+			boxElement.style.margin = '10px';
+			boxElement.style.backgroundColor = '#f00';
+
+			//cria evento mouseover
+			boxElement.addEventListener("mouseover", () => {
+				let newColor = getRandomColor();
+				boxElement.style.backgroundColor = newColor;
+			});
+
+			//adiciona a classe .box na div criada
+			boxElement.classList.add('box');
+
+			document.body.appendChild(boxElement);
+		}
+
+		function getRandomColor() {
+			var letters = "0123456789ABCDEF";
+			var color = "#";
+			for (var i = 0; i < 6; i++) {
+				color += letters[Math.floor(Math.random() * 16)];
+			}
+			return color;
+		}
+		
 	</script>
 ````
 
