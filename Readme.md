@@ -291,7 +291,7 @@
 	</div>
 	<script>
 		var btnElement = document.querySelector('button.botao');
-		var inputElement = document.querySelector('input[name=nome');
+		var inputElement = document.querySelector('input[name=nome]');
 		btnElement.onclick = function(){
 			var text = inputElement.value;
 			alert(text);
@@ -411,6 +411,31 @@
 		for(var i = 0 ; i < nomes.length ; i++){
 			var newLi = document.createElement('li');
 			var itemLi = document.createTextNode(nomes[i]);
+			newLi.appendChild(itemLi);
+			newUl.appendChild(newLi);
+			element.appendChild(newUl); 
+		}
+	</script>
+````
+- tarefa 4
+````
+	<input type="text" name="nome">
+	<button class="botao" onClick="adicionar()">Adicionar</button>
+	<script>
+		var nomes = ["Diego", "Lucas", "Gabriel", "Lucas"];
+		var element = document.body;
+		var newUl = document.createElement('ul');
+		for(var i = 0 ; i < nomes.length ; i++){
+			var newLi = document.createElement('li');
+			var itemLi = document.createTextNode(nomes[i]);
+			newLi.appendChild(itemLi);
+			newUl.appendChild(newLi);
+			element.appendChild(newUl); 
+		}
+		function adicionar(){
+			var inputElement = document.querySelector('input[name=nome]');
+			var newLi = document.createElement('li');
+			var itemLi = document.createTextNode(inputElement.value);
 			newLi.appendChild(itemLi);
 			newUl.appendChild(newLi);
 			element.appendChild(newUl); 
