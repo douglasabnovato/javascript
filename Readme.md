@@ -25,7 +25,7 @@
 #### 3. Variáveis e Dados
 - string, inteiro, decimal, boolean, vetor, objeto
 - console.log
-````
+````javascript
 	var nome = "douglas";//string
 	var idade = 29;//inteiro
 	var peso = 80.5;//decimal
@@ -43,13 +43,13 @@
 
 #### 4. Operações Matemáticas
 
-````
+````javascript
 	var x = 9, y = 3;
 	console.log(x + y);
 ````
 
 #### 5. Funções
-````
+````javascript
 	function soma(numero1, numero2){
 	    var resultado = numero1 + numero2;
 	    return resultado;
@@ -60,7 +60,7 @@
 
 #### 6. Condicionais
 - if
-````
+````javascript
 	function qualSexo(sexo){//M ou F
 	    if(sexo == 'M'){
 	        return 'Masculino';
@@ -75,7 +75,7 @@
 ````
 
 - switch case
-````
+````javascript
 	function qualSexo(sexo){//M ou F
 	    switch (sexo) {
 	        case 'M':
@@ -92,21 +92,21 @@
 
 #### 7. Operadores Lógicos
 - and
-````         
+````javascript        
 	var sexo = 'M', idade = 23;
 	if(sexo === 'M' && idade >=18){
 	    console.log('OK');
 	}
 ````
 - or
-````         
+````javascript       
 	var sexo = 'M', idade = 15;
 	if(sexo === 'M' || idade >=18){
 	    console.log('OK');
 	}
 ````
 - not : verificar a desigualdade
-````         
+```` javascript       
 	var sexo = 'F';
 	if(sexo !== 'M'){
 	    console.log('OK');
@@ -115,7 +115,7 @@
 
 #### 8. Condicional Ternária
 - estrutura tradicional if else
-````
+````javascript
 	var sexo = 'M';
 	if (sexo === 'M'){
 	    return 'Masculino';
@@ -124,7 +124,7 @@
 	}
 ````
 - estrutura ternária
-````
+````javascript
 	var sexo = 'F';
 	var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
 	console.log(retorno);
@@ -132,13 +132,13 @@
 
 #### 9. Estruturas de Repetição
 - for : exibir no console de 0 a 99 
-````
+````javascript
 	for (var i = 0; i < 100; i++){
 	    console.log(i);
 	}
 ````
 - while - quando não há conhecimento de quantas interações serão realizadas
-````
+````javascript
 	var j = 0;
 	while (j<100){
 	    console.log(j);
@@ -148,14 +148,14 @@
 
 #### 10. Intervalo e Timeout
 - Intervalo : executa repetidas vezes no intervalo de tempo informado como parâmetro
-````
+````javascript
 	function exibirAlgo(){
 	    console.log('@douglasabnovato');
 	}
 	setInterval(exibirAlgo, 1000);
 ````
 - Timeout : executa uma vez após o intervalo de tempo informado como parâmetro
-````	
+````javascript	
 	function exibirAlgo(){
 		console.log('@douglasabnovato');
 	}
@@ -169,7 +169,7 @@
 2. https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of
 3. https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join
 - tarefa 1
-````
+````javascript
 	<script>  
 		var endereco = {
 		    rua: "Rua dos pinheiros",
@@ -190,7 +190,7 @@
 	</script>
 ````
 - tarefa 2
-````
+````javascript
 	function exibirPares(x, y){
 		for(var i = x; i <= y; i++){
 		    if(i%2 === 0){
@@ -201,7 +201,7 @@
 	console.log(exibirPares(32,321));
 ````
 - tarefa 3
-````
+````javascript
 	function temHabilidade(skills, possuiEssaSkill){
 	    return skills.indexOf(possuiEssaSkill);
 	}
@@ -216,7 +216,7 @@
 	}
 ````
 - tarefa 4 
-````
+````javascript
 	function experiencia(anos) {
 	    if(anos > 0 && anos <= 1 ){
 	        return anos + ' anos de estudo. Você é um programador Iniciante';
@@ -239,7 +239,7 @@
 ````
 
 - tarefa 5
-````
+````javascript
 	var usuarios = [
 		{
 		    nome: "Diego",
@@ -262,8 +262,8 @@
 ### Manipulando a DOM
 
 #### 1. Eventos inline 
-- eventos : onclick, onmouseover, entre outros.
-````
+- eventos : onclick, onmouseover, onkeypress, entre outros.
+````html
 	<body>
 		<h4> @douglasabnovato </h4>
 		<h5> Manipulando DOM</h5>
@@ -284,7 +284,7 @@
 - getElementsByClassName
 - getElementsById 
 - manipulando elementos da nossa DOM
-````
+````html
 	<div id="app">
 		<input type="text" name="nome"/>
 		<button class="botao">Adicionar</button>
@@ -299,7 +299,7 @@
 	</script>
 ````
 - criando e removendo
-````
+````html
 	<div id="app">
 		<input id="nome"/>
 	</div>
@@ -318,8 +318,20 @@
 
 	</script>
 ````
-
-#### 3. Alterando Estilos 
+#### 3. Lidando com elementos
+- criando elementos HTML com JS.
+````html
+<body>
+	<div id = "app">
+		<input type = "text" name="name"/>
+		<button class="botao">Adicionar</button>
+	</div>
+	<script>
+		var linkElement = document.createElement('a');//criando a tag <a>
+	</script>
+</body>
+````
+#### 4. Alterando Estilos 
 - controlar estilização css
 ````
 	<div id="app">
@@ -442,6 +454,8 @@
 		}
 	</script>
 ````
+
+
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
