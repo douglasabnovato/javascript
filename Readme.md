@@ -462,7 +462,8 @@
 ### App de Todos
 
 #### 1. Estrutura do App
-- 
+- index.html
+- todos.js
 
 #### 2. Iniciando aplicação
 - 

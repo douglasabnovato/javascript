@@ -1,29 +1,26 @@
 <html>
     <head>
-        <title>Javascript - @douglasabnovato </title>
+        <title>Javascript-@douglasabnovato</title>
     </head>
     <body>
-        <input type="text" name="nome">
-        <button class="botao" onClick="adicionar()">Adicionar</button>
-        <script>
-            var nomes = ["Diego", "Lucas", "Gabriel", "Lucas"];
-            var element = document.body;
-            var newUl = document.createElement('ul');
-            for(var i = 0 ; i < nomes.length ; i++){
-                var newLi = document.createElement('li');
-                var itemLi = document.createTextNode(nomes[i]);
-                newLi.appendChild(itemLi);
-                newUl.appendChild(newLi);
-                element.appendChild(newUl); 
-            }
-            function adicionar(){
-                var inputElement = document.querySelector('input[name=nome]');
-                var newLi = document.createElement('li');
-                var itemLi = document.createTextNode(inputElement.value);
-                newLi.appendChild(itemLi);
-                newUl.appendChild(newLi);
-                element.appendChild(newUl); 
-            }
-        </script>
+        <div id="app">
+            <ul>
+                <li> 
+                    Fazer café 
+                    <a href="#">Excluir</a>
+                </li>
+                <li> 
+                    Estudar Javascript 
+                    <a href="#">Excluir</a>
+                </li>
+                <li> 
+                    Acessar comunidade da Rocketseat 
+                    <a href="#">Excluir</a>
+                </li>
+            </ul>
+            <input type="text" placeholder="Digite um todo.">
+            <button> Adicionar </button>
+        </div>
+        <script src="todos.js"></script>
     </body>
 </html>
