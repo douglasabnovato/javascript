@@ -479,6 +479,19 @@
 #### 6. Salvando no Storage
 - 
 
+### JS Assíncrono
+
+#### 1. Estrutura do App
+- 
+
+#### 2. Requisições AJAX
+- 
+
+#### 3. Utilizando AXIOS
+- 
+
+#### Desafio
+- tarefa
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
