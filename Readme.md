@@ -333,7 +333,7 @@
 ````
 #### 4. Alterando Estilos 
 - controlar estilização css
-````
+````html
 	<div id="app">
 		<div class="box"></div>
 	</div>
@@ -349,7 +349,7 @@
 #### Desafio
 - arquivo pdf : desafio2-manipulandoDOM.pdf 
 - tarefa 1
-````
+````html
 	<button class='botao' id='btnCriar' onClick="gerarQuadrado()">Gerar novo</button>
 	<div id="app">
 		<div class="box"></div>
@@ -372,7 +372,7 @@
 	</script>
 ````
 - tarefa 2
-````
+````html
 	<button class='botao' id='btnCriar' onClick="gerarQuadrado()" >Gerar novo</button>
 	<div id="app">
 		<div class="box" onmouseover="trocarCor(this)"></div>
@@ -412,7 +412,7 @@
 	</script>
 ````
 - tarefa 3 
-````
+````html
 	<script>
 		var nomes = ["Diego", "Lucas", "Gabriel", "Lucas"];
 
@@ -430,7 +430,7 @@
 	</script>
 ````
 - tarefa 4
-````
+````html
 	<input type="text" name="nome">
 	<button class="botao" onClick="adicionar()">Adicionar</button>
 	<script>
