@@ -464,6 +464,7 @@
 #### 1. Estrutura do App
 - index.html
 - todos.js
+- referenciar os elementos html no javascript
 
 #### 2. Iniciando aplicação
 - 
