@@ -467,13 +467,13 @@
 - referenciar os elementos html no javascript
 
 #### 2. Iniciando aplicação
-- 
+- array de todos
 
 #### 3. Renderizando Todos
-- 
+- renderizar via javascript
 
 #### 4. Criando Todos
-- 
+- criando via javascript
 
 #### 5. Excluindo Todos
 - 
