@@ -608,9 +608,36 @@ myPromise()
 - biblioteca AXIOS 
 - `https://github.com/axios/axios`
 - `npm install axios`
+- main.js
+````javascript
+axios.get('https://api.github.com/users/diego3g')
+    .then(function(response) {
+        console.log(response);
+    })
+    .catch(function(error) {
+        console.warn(error);
+    });
+````
+- index.html
+````html
+<html>
+    <head>
+        <title>Javascript-@douglasabnovato</title>
+    </head>
+    <body>
+        @douglasabnovato
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
+````
 
 #### Desafio
-- tarefa
+- tarefa 1
+
+- tarefa 2
+
+- tarefa 3
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
