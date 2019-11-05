@@ -577,7 +577,7 @@ xhr.onreadystatechange = function(){
 - funções para manipulação das informações vinda do servidor
 
 #### 3. Utilizando AXIOS
-- 
+- biblioteca AXIOS 
 
 #### Desafio
 - tarefa
