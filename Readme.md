@@ -1,6 +1,6 @@
 # Rocketseat - Starter JavaScript 
 
-## Atualização: 04 de novembro de 2019 - 21:31
+## Atualização: 05 de novembro de 2019 - 10:00
 ## Criação: 14 de Outubro de 2019
 ## Prática : @douglasabnovato
 
