@@ -559,9 +559,10 @@ function saveToStorage(){
 - recuperar informações do servidor
 - arquivo `main.js`
 - arquivo `index.html`
+- consumir as informações do serviços
 
 #### 2. Promises
-- 
+- funções para manipulação das informações vinda do servidor
 
 #### 3. Utilizando AXIOS
 - 
