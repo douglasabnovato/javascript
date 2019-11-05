@@ -462,8 +462,8 @@
 ### App de Todos
 
 #### 1. Estrutura do App
-- index.html
-- todos.js
+- `index.html`
+- `todos.js`
 - referenciar os elementos html no javascript
 
 #### 2. Iniciando aplicação
@@ -480,6 +480,77 @@
 
 #### 6. Salvando no Storage
 - storage via javascript
+
+**projeto final**
+- `index.html`
+````html
+<html>
+    <head>
+        <title>Javascript-@douglasabnovato</title>
+    </head>
+    <body>
+        <div id="app">
+            <ul></ul>
+            <input type="text" placeholder="Digite um todo">
+            <button>Adicionar</button>
+        </div>
+        <script src="todos.js"></script>
+    </body>
+</html>
+````
+- `todos.js`
+````javascript
+var listElement = document.querySelector('#app ul');
+var inputElement = document.querySelector('#app input');
+var buttonElement = document.querySelector('#app button');
+
+var todos = JSON.parse(localStorage.getItem('list_todos')) || [];
+
+function renderTodos(){
+
+    listElement.innerHTML = '';
+
+    for (todo of todos ){
+
+        var todoElement = document.createElement('li');
+        var todoText = document.createTextNode(todo);
+
+        var linkElement = document.createElement('a');
+        linkElement.setAttribute('href', '#');
+        var pos = todos.indexOf(todo);
+        linkElement.setAttribute('onclick','deleteTodo('+ pos +')');
+        var linkText = document.createTextNode('Excluir');
+
+        linkElement.appendChild(linkText);
+        todoElement.appendChild(todoText);
+        todoElement.appendChild(linkElement);
+        listElement.appendChild(todoElement);
+
+    }
+}
+
+renderTodos();
+
+function addTodo(){
+    var todoText = inputElement.value;
+    todos.push(todoText);
+    inputElement.value = '';
+    renderTodos();
+    saveToStorage();
+}
+
+buttonElement.onclick = addTodo;
+
+function deleteTodo(pos){
+    todos.splice(pos, 1);
+    renderTodos();
+    saveToStorage();
+}
+
+function saveToStorage(){
+    localStorage.setItem('list_todos', JSON.stringify(todos));
+}
+````
 
 ### JS Assíncrono
 
