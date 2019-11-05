@@ -479,7 +479,7 @@
 - excluindo via javascript
 
 #### 6. Salvando no Storage
-- 
+- storage via javascript
 
 ### JS Assíncrono
 
