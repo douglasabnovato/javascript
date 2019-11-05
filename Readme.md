@@ -558,6 +558,18 @@ function saveToStorage(){
 - requisitar informações do servidor sem precisar atualizar a página
 - recuperar informações do servidor
 - arquivo `main.js`
+````javascript
+var xhr = new XMLHttpRequest();
+
+xhr.open('GET', 'https://api.github.com/users/diego3g');
+xhr.send(null);
+
+xhr.onreadystatechange = function(){
+    if(xhr.readyState === 4){
+        console.log(JSON.parse(xhr.responseText));
+    }
+}
+````
 - arquivo `index.html`
 - consumir as informações do serviços
 
