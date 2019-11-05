@@ -476,7 +476,7 @@
 - criando via javascript
 
 #### 5. Excluindo Todos
-- 
+- excluindo via javascript
 
 #### 6. Salvando no Storage
 - 
