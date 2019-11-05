@@ -665,8 +665,105 @@ function checaIdade(idade) {
     });
 ````
 - tarefa 2
+````html
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>Exercício 02</title>
+</head>
+
+<body>
+  <input type="text" name="user">
+  <button onclick="listRepositories()">Adicionar</button>
+
+  <ul></ul>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    var listElement = document.querySelector('ul');
+    var inputElement = document.querySelector('input');
+    function renderRepositories(repositories) {
+      for (repo of repositories) {
+        const textElement = document.createTextNode(repo.name);
+        const liElement = document.createElement('li');
+        liElement.appendChild(textElement);
+        listElement.appendChild(liElement);
+      }
+    }
+    function listRepositories() {
+      var user = inputElement.value;
+      if (!user) return;
+      axios.get('https://api.github.com/users/' + user + '/repos')
+        .then(function (response) {
+          renderRepositories(response.data);
+        })
+    }
+  </script>
+</body>
+
+</html>
+````
 - tarefa 3
+````html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Exercício 02</title>
+</head>
+
+<body>
+  <input type="text" name="user">
+  <button onclick="listRepositories()">Adicionar</button>
+
+  <ul></ul>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    var listElement = document.querySelector('ul');
+    var inputElement = document.querySelector('input');
+    function renderRepositories(repositories) {
+      listElement.innerHTML = "";
+      for (repo of repositories) {
+        const textElement = document.createTextNode(repo.name);
+        const liElement = document.createElement('li');
+        liElement.appendChild(textElement);
+        listElement.appendChild(liElement);
+      }
+    }
+    function renderLoading(loading) {
+      listElement.innerHTML = "";
+      var textElement = document.createTextNode('Carregando...');
+      var loadingElement = document.createElement('li');
+      loadingElement.appendChild(textElement);
+      listElement.appendChild(loadingElement);
+    }
+    function renderError(loading) {
+      listElement.innerHTML = "";
+      var textElement = document.createTextNode('Erro!');
+      var errorElement = document.createElement('li');
+      errorElement.style.color = "#F00";
+      errorElement.appendChild(textElement);
+      listElement.appendChild(errorElement);
+    }
+    function listRepositories() {
+      var user = inputElement.value;
+      if (!user) return;
+      renderLoading();
+      axios.get('https://api.github.com/users/' + user + '/repos')
+        .then(function (response) {
+          renderRepositories(response.data);
+        })
+        .catch(function () {
+          renderError();
+        });
+    }
+  </script>
+</body>
+
+</html>
+````
 
 :. De Rocketseat - Starter - Javascript.<br>
 Por Diego Fernandes : https://skylab.rocketseat.com.br/node/curso-java-script/group/introducao-java-script/lesson/configurando-ambiente-3
