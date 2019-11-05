@@ -481,7 +481,7 @@
 #### 6. Salvando no Storage
 - storage via javascript
 
-**projeto final**
+**projeto AppTodos**
 - `index.html`
 ````html
 <html>
@@ -554,10 +554,13 @@ function saveToStorage(){
 
 ### JS Assíncrono
 
-#### 1. Estrutura do App
-- 
+#### 1. Requisições AJAX
+- requisitar informações do servidor sem precisar atualizar a página
+- recuperar informações do servidor
+- arquivo `main.js`
+- arquivo `index.html`
 
-#### 2. Requisições AJAX
+#### 2. Promises
 - 
 
 #### 3. Utilizando AXIOS
