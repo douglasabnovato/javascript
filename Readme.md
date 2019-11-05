@@ -606,6 +606,8 @@ myPromise()
 
 #### 3. Utilizando AXIOS
 - biblioteca AXIOS 
+- `https://github.com/axios/axios`
+- `npm install axios`
 
 #### Desafio
 - tarefa
