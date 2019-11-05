@@ -633,8 +633,37 @@ axios.get('https://api.github.com/users/diego3g')
 ````
 
 #### Desafio
+**index.html**
+````html
+<html>
+    <head>
+        <title>Javascript-@douglasabnovato</title>
+    </head>
+    <body>
+        @douglasabnovato
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
+````
 - tarefa 1
-
+````javascript
+function checaIdade(idade) {
+    return new Promise(function(resolve, reject) {
+      setTimeout(function() {
+        return idade >= 18 ? resolve() : reject();
+      }, 2000);
+    });
+  }
+  
+  checaIdade(15)
+    .then(function() {
+      console.log("Maior que 18");
+    })
+    .catch(function() {
+      console.log("Menor que 18");
+    });
+````
 - tarefa 2
 
 - tarefa 3
