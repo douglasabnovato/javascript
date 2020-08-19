@@ -1,9 +1,8 @@
 # Rocketseat - Starter JavaScript 
 
-### Atualização: 19 de agosto de 2020
+### Atualização: 19 de agosto de 2020 - Done
 ### Criação: 14 de Outubro de 2019
 ### Prática : @douglasabnovato
-### Concluído
 
 ## Ferramentas : 
 
