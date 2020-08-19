@@ -261,7 +261,7 @@
 ````
 ### Manipulando a DOM
 
-#### 1. Eventos inline 
+#### 11. Eventos inline 
 - eventos : onclick, onmouseover, onkeypress, entre outros.
 ````html
 	<body>
@@ -278,7 +278,7 @@
 	</body>
 ````
 
-#### 2. Trabalhando com a DOM 
+#### 12. Trabalhando com a DOM 
 - objetivo é buscar as informações nos elementos da DOM
 - getElementsByTagName
 - getElementsByClassName
@@ -318,7 +318,7 @@
 
 	</script>
 ````
-#### 3. Lidando com elementos
+#### 13. Lidando com elementos
 - criando elementos HTML com JS.
 ````html
 <body>
@@ -335,7 +335,7 @@
 	</script>
 </body>
 ````
-#### 4. Alterando Estilos 
+#### 14. Alterando Estilos 
 - controlar estilização css
 ````html
 	<div id="app">
@@ -461,24 +461,24 @@
 
 ### App de Todos
 
-#### 1. Estrutura do App
+#### 15. Estrutura do App
 - `index.html`
 - `todos.js`
 - referenciar os elementos html no javascript
 
-#### 2. Iniciando aplicação
+#### 16. Iniciando aplicação
 - array de todos
 
-#### 3. Renderizando Todos
+#### 17. Renderizando Todos
 - renderizar via javascript
 
-#### 4. Criando Todos
+#### 18. Criando Todos
 - criando via javascript
 
-#### 5. Excluindo Todos
+#### 19. Excluindo Todos
 - excluindo via javascript
 
-#### 6. Salvando no Storage
+#### 20. Salvando no Storage
 - storage via javascript
 
 **projeto AppTodos**
@@ -554,7 +554,7 @@ function saveToStorage(){
 
 ### JS Assíncrono
 
-#### 1. Requisições AJAX
+#### 21. Requisições AJAX
 - requisitar informações do servidor sem precisar atualizar a página
 - recuperar informações do servidor
 - arquivo `main.js`
@@ -573,7 +573,7 @@ xhr.onreadystatechange = function(){
 - arquivo `index.html`
 - consumir as informações do serviços
 
-#### 2. Promises
+#### 22. Promises
 - funções para manipulação das informações vinda do servidor
 ````javascript
 var myPromise = function() {
@@ -604,7 +604,7 @@ myPromise()
     });
 ````
 
-#### 3. Utilizando AXIOS
+#### 23. Utilizando AXIOS
 - biblioteca AXIOS 
 - `https://github.com/axios/axios`
 - `npm install axios`
@@ -633,6 +633,8 @@ axios.get('https://api.github.com/users/diego3g')
 ````
 
 #### Desafio
+- arquivo pdf : desafio3-requisicao-assincrona.pdf
+
 **index.html**
 ````html
 <html>
